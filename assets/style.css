@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* COMPONENTS */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.logo {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 80px;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+}
