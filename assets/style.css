@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -24,28 +29,46 @@ body {
     padding: 5px 10px;
 }
 
-.logo {
+.logo h2 {
     font-family: 'Kanit', sans-serif;
+    color: #FFF;
 }
 
 /* NAVBAR */
 
-.navbar {
+nav {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
     height: 80px;
+    transition: all 1s ease;
+    background: #1c1b29;
 }
 
-.nav .container {
+nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar .nav-menu {
-    list-style: none;
+nav .nav-menu {
     display: flex;
     align-items: center;
     grid-gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #07b754;
+    border-bottom: #07b754 solid 1px;
 }
