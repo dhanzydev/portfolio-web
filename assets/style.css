@@ -72,3 +72,35 @@ nav ul li a:hover {
     color: #07b754;
     border-bottom: #07b754 solid 1px;
 }
+
+/* BERANDA STYLE */
+#beranda {
+    padding-top: 200px;
+    padding-bottom: 130px;
+    background-color: #14141e;
+}
+
+.content-text{
+    text-align: center;
+    color: #FFF;
+}
+
+.content-text .roles {
+    background-color: #07b754;
+    padding: 0;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
