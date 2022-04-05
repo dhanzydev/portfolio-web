@@ -114,7 +114,7 @@ nav ul li a:hover {
 /* TENTANG SAYA STYLE */
 
 #tentang {
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 130px;
     background-color: #1c1b29;
 }
@@ -146,7 +146,25 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
-/* SKILL STYLE */
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* SKILLS STYLE */
+#skill {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #14141e;
+}
+
 .my-skills {
     margin-top: 50px;
 }
@@ -190,3 +208,5 @@ nav ul li a:hover {
     width: 50%;
     height: 10px;
 }
+
+/* PROJEK STYLE */
